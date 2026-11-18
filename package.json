@@ -1,0 +1,21 @@
+{
+  "name": "hhc-std-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for searching and downloading Chinese industry standards (全国标准信息公共服务平台)",
+  "type": "module",
+  "bin": {
+    "hhc-std-mcp": "./src/index.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["mcp", "model-context-protocol", "standards", "中国标准", "行业标准"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
